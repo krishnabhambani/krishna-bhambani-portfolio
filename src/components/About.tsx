@@ -53,7 +53,7 @@ const About = () => {
               </CardContent>
             </Card>
             
-            <Card className="group hover:shadow-elegant transition-all duration-300 hover:-translate-y-1">
+{/*             <Card className="group hover:shadow-elegant transition-all duration-300 hover:-translate-y-1">
               <CardContent className="p-6">
                 <div className="flex items-start space-x-4">
                   <div className="p-3 bg-accent/10 rounded-lg group-hover:bg-accent/20 transition-colors">
@@ -70,7 +70,7 @@ const About = () => {
                   </div>
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
             
             <Card className="group hover:shadow-elegant transition-all duration-300 hover:-translate-y-1">
               <CardContent className="p-6">
