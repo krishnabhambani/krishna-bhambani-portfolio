@@ -66,6 +66,16 @@ const Skills = () => {
             );
           })}
         </div>
+        
+        {/* Animated Tech Stack Symbols */}
+        <div className="mt-16 overflow-hidden">
+          <div className="flex items-center gap-8 animate-scroll">
+            <div className="flex items-center gap-8 text-4xl">
+              ⚛️ 🟢 📘 🔷 🎨 🍃 ⚡ 🔧 🗄️ 🔗 🌐 🛠️ 
+              ⚛️ 🟢 📘 🔷 🎨 🍃 ⚡ 🔧 🗄️ 🔗 🌐 🛠️
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

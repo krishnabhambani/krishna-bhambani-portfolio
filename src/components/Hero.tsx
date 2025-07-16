@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, ExternalLink } from "lucide-react";
+import { Github, Linkedin, Mail, ExternalLink, Code } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
@@ -19,7 +19,7 @@ const Hero = () => {
       </div>
       
       {/* Content */}
-      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto pt-24">
         <div className="space-y-6 animate-fade-in">
           {/* Profile Photo */}
           <div className="flex justify-center mb-8">
@@ -44,17 +44,21 @@ const Hero = () => {
           
           <p className="text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto leading-relaxed">
             Passionate about creating scalable web applications and innovative solutions. 
-            Currently pursuing B.Tech in Computer Science at VIT with expertise in modern web technologies.
+            Currently pursuing B.Tech in Computer Science at VIT with CGPA 8.80 and expertise in modern web technologies.
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center items-center pt-6">
-            <Button className="group" size="lg">
-              <Mail className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
-              Get In Touch
+            <Button className="group" size="lg" asChild>
+              <a href="mailto:krishnabhambani1@gmail.com">
+                <Mail className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
+                Get In Touch
+              </a>
             </Button>
-            <Button variant="outline" size="lg" className="group">
-              <ExternalLink className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
-              View Resume
+            <Button variant="outline" size="lg" className="group" asChild>
+              <a href="https://drive.google.com/file/d/1tlnFKiYgdaHzp3p0tI2VhItinkXZf9R3/view" target="_blank" rel="noopener noreferrer">
+                <ExternalLink className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
+                View Resume
+              </a>
             </Button>
           </div>
           
@@ -74,6 +78,14 @@ const Hero = () => {
               rel="noopener noreferrer"
             >
               <Linkedin className="h-6 w-6" />
+            </a>
+            <a 
+              href="https://leetcode.com/u/krishna_bhambani/" 
+              className="p-3 rounded-full border border-border hover:bg-accent hover:text-accent-foreground transition-all duration-300 hover:scale-110"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Code className="h-6 w-6" />
             </a>
             <a 
               href="mailto:krishnabhambani1@gmail.com" 

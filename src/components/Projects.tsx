@@ -21,7 +21,7 @@ const Projects = () => {
         "Enhanced UI interactivity"
       ],
       githubUrl: "#",
-      liveUrl: "#"
+      liveUrl: "https://lms-rfontend.vercel.app/"
     },
     {
       title: "Tools Cult Platform",
@@ -36,7 +36,7 @@ const Projects = () => {
         "Real-time content optimization"
       ],
       githubUrl: "#",
-      liveUrl: "#"
+      liveUrl: "https://tools-cult.vercel.app/"
     },
     {
       title: "Codify Website",
@@ -51,7 +51,7 @@ const Projects = () => {
         "Cloud-based academic resources"
       ],
       githubUrl: "#",
-      liveUrl: "#"
+      liveUrl: "https://codifykrishna.vercel.app/"
     }
   ];
 
@@ -121,13 +121,17 @@ const Projects = () => {
                     </div>
                     
                     <div className="flex gap-4 pt-4">
-                      <Button size="sm" className="group/btn">
-                        <Github className="mr-2 h-4 w-4 group-hover/btn:scale-110 transition-transform" />
-                        View Code
+                      <Button size="sm" className="group/btn" asChild>
+                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                          <Github className="mr-2 h-4 w-4 group-hover/btn:scale-110 transition-transform" />
+                          View Code
+                        </a>
                       </Button>
-                      <Button variant="outline" size="sm" className="group/btn">
-                        <ExternalLink className="mr-2 h-4 w-4 group-hover/btn:scale-110 transition-transform" />
-                        Live Demo
+                      <Button variant="outline" size="sm" className="group/btn" asChild>
+                        <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="mr-2 h-4 w-4 group-hover/btn:scale-110 transition-transform" />
+                          Live Demo
+                        </a>
                       </Button>
                     </div>
                   </CardContent>
