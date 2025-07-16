@@ -1,26 +1,11 @@
-# Welcome to your Lovable project
+##Welcome to my Portfolio
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/95dd945d-22fe-4ef0-8b32-eda8eb12e4dc
+```**URL**: https://lovable.dev/projects/95dd945d-22fe-4ef0-8b32-eda8eb12e4dc```
 
-## How can I edit this code?
+URL- https://krishna-bhambani-portfolio.lovable.app/
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/95dd945d-22fe-4ef0-8b32-eda8eb12e4dc) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
@@ -42,13 +27,6 @@ npm run dev
 - Click the "Edit" button (pencil icon) at the top right of the file view.
 - Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
 ## What technologies are used for this project?
 
@@ -59,10 +37,6 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/95dd945d-22fe-4ef0-8b32-eda8eb12e4dc) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?
 
