@@ -21,6 +21,18 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="space-y-6 animate-fade-in">
+          {/* Profile Photo */}
+          <div className="flex justify-center mb-8">
+            <div className="relative">
+              <img 
+                src="/lovable-uploads/85c55dfe-6959-4b05-a087-29d5115af515.png"
+                alt="Krishna Bhambani"
+                className="w-48 h-48 rounded-full object-cover border-4 border-primary/20 shadow-glow"
+              />
+              <div className="absolute inset-0 rounded-full bg-gradient-to-t from-primary/20 to-transparent"></div>
+            </div>
+          </div>
+          
           <div className="space-y-2">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
               Krishna Bhambani
@@ -48,7 +60,7 @@ const Hero = () => {
           
           <div className="flex gap-6 justify-center pt-8">
             <a 
-              href="https://github.com/krishnabhambani" 
+              href="https://github.com/krishnabhambani/" 
               className="p-3 rounded-full border border-border hover:bg-accent hover:text-accent-foreground transition-all duration-300 hover:scale-110"
               target="_blank"
               rel="noopener noreferrer"
@@ -56,7 +68,7 @@ const Hero = () => {
               <Github className="h-6 w-6" />
             </a>
             <a 
-              href="https://linkedin.com/in/krishnabhambani" 
+              href="https://www.linkedin.com/in/krishnabhambani/" 
               className="p-3 rounded-full border border-border hover:bg-accent hover:text-accent-foreground transition-all duration-300 hover:scale-110"
               target="_blank"
               rel="noopener noreferrer"
@@ -64,7 +76,7 @@ const Hero = () => {
               <Linkedin className="h-6 w-6" />
             </a>
             <a 
-              href="mailto:krishnabhambani9@gmail.com" 
+              href="mailto:krishnabhambani1@gmail.com" 
               className="p-3 rounded-full border border-border hover:bg-accent hover:text-accent-foreground transition-all duration-300 hover:scale-110"
             >
               <Mail className="h-6 w-6" />

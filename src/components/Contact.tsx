@@ -13,8 +13,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "krishnabhambani9@gmail.com",
-      href: "mailto:krishnabhambani9@gmail.com"
+      value: "krishnabhambani1@gmail.com",
+      href: "mailto:krishnabhambani1@gmail.com"
     },
     {
       icon: MapPin,
@@ -28,13 +28,13 @@ const Contact = () => {
     {
       name: "GitHub",
       icon: Github,
-      href: "https://github.com/krishnabhambani",
+      href: "https://github.com/krishnabhambani/",
       color: "hover:text-foreground"
     },
     {
       name: "LinkedIn",
       icon: Linkedin,
-      href: "https://linkedin.com/in/krishnabhambani",
+      href: "https://www.linkedin.com/in/krishnabhambani/",
       color: "hover:text-blue-600"
     },
     {

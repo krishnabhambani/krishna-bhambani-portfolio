@@ -24,8 +24,8 @@ const Projects = () => {
       liveUrl: "#"
     },
     {
-      title: "Tools Call Platform",
-      description: "Designed and built a sleek interface for Tools Call, streamlining workflows across 5+ AI tools. Integrated Gemini API for real-time content generation, enabling smart document automation. Features include real-time content optimization and enhanced user experience with AI-driven functionality.",
+      title: "Tools Cult Platform",
+      description: "Designed and built a sleek interface for Tools Cult, streamlining workflows across 5+ AI tools. Integrated Gemini API for real-time content generation, enabling smart document automation. Features include real-time content optimization and enhanced user experience with AI-driven functionality.",
       image: toolsProject,
       technologies: ["React.js", "Tailwind CSS", "Gemini API", "Vercel"],
       timeline: "06/25 - 07/25",

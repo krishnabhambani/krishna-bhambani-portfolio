@@ -21,10 +21,10 @@ const Experience = () => {
       color: "bg-primary/10 text-primary"
     },
     {
-      role: "Dev Intern",
-      company: "Code Realm",
+      role: "Developer Intern",
+      company: "CodeResite",
       type: "Remote Internship",
-      duration: "06/24 - 08/24", 
+      duration: "05/25 - 07/25",
       description: "Boosted website responsiveness by improving user satisfaction by 25%. Optimized user experience, contributing to a 15% uptick in engagement and a 10% drop in bounce rates. Improved accessibility scores by 20% through semantic markup attributes.",
       responsibilities: [
         "Developed responsive web applications using React.js and Tailwind CSS",
