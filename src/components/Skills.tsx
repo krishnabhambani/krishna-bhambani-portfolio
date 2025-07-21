@@ -5,6 +5,11 @@ import { Code, Database, Cloud, Terminal } from "lucide-react";
 const Skills = () => {
   const skillCategories = [
     {
+      title: "Programming Languages",
+      icon: Terminal,
+      skills: ["C++", "C", "Java", "Python"]
+    },
+    {
       title: "Frontend Development",
       icon: Code,
       skills: ["React.js", "Next.js", "JavaScript", "TypeScript", "HTML5", "CSS3", "Tailwind CSS", "GSAP"]
