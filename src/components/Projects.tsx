@@ -20,7 +20,7 @@ const Projects = () => {
         "Real-time course updates and performance tracking",
         "Enhanced UI interactivity"
       ],
-      githubUrl: "#",
+      githubUrl: "https://github.com/Pradumn88/lms-college-site",
       liveUrl: "https://lms-rfontend.vercel.app/"
     },
     {
@@ -35,7 +35,7 @@ const Projects = () => {
         "Smart document automation",
         "Real-time content optimization"
       ],
-      githubUrl: "#",
+      githubUrl: "https://github.com/krishnabhambani/resitecode",
       liveUrl: "https://tools-cult.vercel.app/"
     },
     {
@@ -50,7 +50,7 @@ const Projects = () => {
         "Job matching algorithm",
         "Cloud-based academic resources"
       ],
-      githubUrl: "#",
+      githubUrl: "https://github.com/krishnabhambani/club",
       liveUrl: "https://codifykrishna.vercel.app/"
     }
   ];
@@ -77,7 +77,7 @@ const Projects = () => {
                   <img 
                     src={project.image} 
                     alt={project.title}
-                    className="w-full h-64 lg:h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="w-full aspect-video object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent"></div>
                 </div>

@@ -123,7 +123,7 @@ const Contact = () => {
                     <Button variant="outline" size="lg" className="w-full group" asChild>
                       <a
                         href="/MyResume (22).pdf"
-                        download="Krishna_Bhambani_Resume.pdf"
+                        download="Krishna_Bhambani_Resume.pdf"  // 👈 This ensures the download filename
                         target="_blank"
                         rel="noopener noreferrer"
                       >
