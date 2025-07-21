@@ -5,28 +5,28 @@ import { Trophy, Award, Star, Target } from "lucide-react";
 const Achievements = () => {
   const achievements = [
     {
-      title: "Academic Excellence",
-      description: "Maintaining CGPA of 8.80 in B.Tech Computer Science at VIT",
+      title: "Microsoft Azure AI-900 Certification",
+      description: "Achieved Microsoft Azure AI-900 Certification, validating the core understanding of Azure cloud services.",
       icon: Trophy,
-      category: "Academic"
+      category: "Certification"
     },
     {
-      title: "Full Stack Development",
-      description: "Developed multiple production-ready applications with modern tech stacks",
-      icon: Award,
-      category: "Technical"
-    },
-    {
-      title: "AI Integration Expert",
-      description: "Successfully integrated multiple AI APIs including Gemini API for real-time content generation",
-      icon: Star,
-      category: "Innovation"
-    },
-    {
-      title: "Open Source Contributor",
-      description: "Active contributor to various open source projects on GitHub",
+      title: "36-Hour Hackathon Organizer",
+      description: "Organised a 36-hour hackathon focused on Sustainable Goals, managing logistics, sponsors, and 1000+ participants.",
       icon: Target,
-      category: "Community"
+      category: "Leadership"
+    },
+    {
+      title: "Frontend Development Certification - IIT Kanpur",
+      description: "Certified in Frontend Development by IIT Kanpur – Gained hands-on experience in frontend technologies.",
+      icon: Award,
+      category: "Education"
+    },
+    {
+      title: "IEEE International Conference Management",
+      description: "Served in the Management team of an IEEE International conference, overseeing event coordination.",
+      icon: Star,
+      category: "Professional"
     }
   ];
 

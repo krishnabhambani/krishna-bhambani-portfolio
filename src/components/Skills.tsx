@@ -5,29 +5,24 @@ import { Code, Database, Cloud, Terminal } from "lucide-react";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Programming Languages",
+      title: "Languages",
       icon: Terminal,
-      skills: ["C++", "C", "Java", "Python"]
+      skills: ["C/C++", "Java", "Python", "JavaScript", "HTML", "CSS", "SQL"]
     },
     {
-      title: "Frontend Development",
+      title: "Frameworks/Libraries",
       icon: Code,
-      skills: ["React.js", "Next.js", "JavaScript", "TypeScript", "HTML5", "CSS3", "Tailwind CSS", "GSAP"]
+      skills: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Next.js", "GSAP"]
     },
     {
-      title: "Backend Development", 
+      title: "Tools/Platforms", 
       icon: Database,
-      skills: ["Node.js", "Express.js", "MongoDB", "RESTful APIs", "Authentication"]
+      skills: ["Git", "GitHub", "AWS", "MySQL", "Clerk", "Supabase"]
     },
     {
-      title: "Tools & Technologies",
-      icon: Terminal,
-      skills: ["Git", "GitHub", "Vercel", "VS Code", "Postman", "Figma"]
-    },
-    {
-      title: "AI & APIs",
+      title: "CS Fundamentals",
       icon: Cloud,
-      skills: ["Gemini API", "Clerk API", "API Integration", "AI Tools Development"]
+      skills: ["Data Structures", "Algorithms", "OOPs", "DBMS", "Computer Networks", "Operating Systems"]
     }
   ];
 
@@ -49,7 +44,7 @@ const Skills = () => {
                 <CardHeader>
                   <div className="flex items-center gap-3 mb-2">
                     <div className="p-2 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
-                      <IconComponent className="h-5 w-5 text-primary" />
+                      <IconComponent className="h-4 w-4 text-primary" />
                     </div>
                     <CardTitle className="text-lg">{category.title}</CardTitle>
                   </div>
