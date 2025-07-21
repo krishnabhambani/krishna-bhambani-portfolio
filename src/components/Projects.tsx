@@ -2,9 +2,9 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github, Calendar } from "lucide-react";
-import lmsProject from "@/assets/lms-project.jpg";
-import toolsProject from "@/assets/tools-platform.jpg";
-import codifyProject from "@/assets/codify-project.jpg";
+import lmsProject from "@/assets/lms-project.png";
+import toolsProject from "@/assets/tools-platform.png";
+import codifyProject from "@/assets/codify-project.png";
 
 const Projects = () => {
   const projects = [

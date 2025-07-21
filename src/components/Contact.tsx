@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin, Github, Linkedin, ExternalLink } from "lucide-react";
 
+
 const Contact = () => {
   const contactInfo = [
     {
@@ -113,13 +114,22 @@ const Contact = () => {
                   </p>
                   
                   <div className="space-y-4">
-                    <Button size="lg" className="w-full group">
-                      <Mail className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
-                      Send Email
+                    <Button size="lg" className="w-full group" asChild>
+                      <a href="mailto:krishnabhambani1@gmail.com">
+                        <Mail className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
+                        Send Email
+                      </a>
                     </Button>
-                    <Button variant="outline" size="lg" className="w-full group">
-                      <ExternalLink className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
-                      Download Resume
+                    <Button variant="outline" size="lg" className="w-full group" asChild>
+                      <a
+                        href="/MyResume (22).pdf"
+                        download="Krishna_Bhambani_Resume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <ExternalLink className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
+                        Download Resume
+                      </a>
                     </Button>
                   </div>
                 </CardContent>
